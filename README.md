@@ -16,7 +16,6 @@ The **Incident Management App** is a mobile application developed using **Flutte
 - **Drawer Navigation**: Easy access to different sections like home, profile, and settings via a drawer menu.
 - **Responsive UI**: A sleek design optimized for multiple platforms including mobile, tablets, and web.
 - **Incident Details**: Detailed view of each incident with actionable options like editing or deleting.
-- **Customizable Settings**: Users can personalize notification settings and manage app preferences.
 
 ---
 
@@ -27,25 +26,38 @@ The **Incident Management App** is a mobile application developed using **Flutte
 - **Material Design**: Google's Material Design principles for building visually appealing and user-friendly UI elements.
 - **Icons**: Material Icons library for clean and consistent iconography throughout the app.
 - **Dart**: The programming language used to write the app.
-- **SQLite (optional)**: For local data storage, providing persistence of incidents.
 
 ---
 
-## Key Functionalities
+## Build/Install Instructions
 
-### Incident Sorting and Searching
+### Prerequisites
 
-- **Sorting**: Users can easily sort incidents based on date or severity, ensuring that they can quickly find the most relevant incidents.
-- **Searching**: The app allows users to search incidents by their title, with real-time suggestions and instant search results, improving user experience.
+Before you begin, ensure you have the following installed:
 
-### Filter and Manage Incidents
+- **Flutter SDK**: Download and install Flutter from the official website: [Flutter Installation Guide](https://flutter.dev/docs/get-started/install).
+- **Android Studio**: For Android development and building APKs.
+- **Xcode** (for macOS users): For iOS app development.
 
-- **Filter**: Users can filter incidents by severity (e.g., low, medium, high) or by date range to narrow down the list.
-- **Incident Management**: The app allows users to create new incidents, edit existing ones, and delete incidents with a confirmation dialog.
+### Steps to Run the Project Locally
 
-### Drawer Navigation and User Profile
+1. **Clone the repository**:
 
-- **Drawer Menu**: The app has a side navigation drawer that gives users access to different sections like home, user profile, and settings. The drawer also includes a logout option to end the session.
-- **User Profile**: Users can view and manage their profile, including updating information such as their name and email.
+   ```bash
+   git clone https://github.com/SHIVAM-SHRIVASTAVA-1605/Incident-Management-App.git
+   cd Incident-Management-App
 
----
+    Install dependencies:
+
+    Run the following command to install required dependencies:
+
+flutter pub get
+
+Run the app:
+
+    To run the app on an emulator or connected device, use the following command:
+
+    flutter run
+
+    This will launch the app on your default device or simulator.
+
