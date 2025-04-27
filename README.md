@@ -49,11 +49,11 @@ Before you begin, ensure you have the following installed:
 
     Install dependencies:
 
-    Run the following command to install required dependencies:
+   Run the following command to install required dependencies:
 
-flutter pub get
+   flutter pub get
 
-Run the app:
+   Run the app:
 
     To run the app on an emulator or connected device, use the following command:
 
